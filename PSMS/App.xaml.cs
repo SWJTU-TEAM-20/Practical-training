@@ -16,6 +16,7 @@ namespace PSMS
         public void Func()
         {
             Console.Write("C#Team20");
+            Console.WriteLine("嘿嘿");
         }
 
     }
