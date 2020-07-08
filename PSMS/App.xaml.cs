@@ -13,5 +13,10 @@ namespace PSMS
     /// </summary>
     public partial class App : Application
     {
+        public void Func()
+        {
+            Console.Write("C#Team20");
+        }
+
     }
 }
