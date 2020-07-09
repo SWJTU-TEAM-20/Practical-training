@@ -8,6 +8,10 @@ namespace PSMS.BLL
 {
     public class ManagerBLL
     {
+        public bool ManagerLogin(string User_Name, string Password)
+        {
 
+            return true;
+        }
     }
 }
