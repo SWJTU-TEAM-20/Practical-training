@@ -18,3 +18,23 @@ D:\Visual Studio\items\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
 D:\Visual Studio\items\UI\obj\Debug\UI.csproj.CopyComplete
 D:\Visual Studio\items\UI\obj\Debug\UI.exe
 D:\Visual Studio\items\UI\obj\Debug\UI.pdb
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\bin\Debug\UI.exe.config
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\bin\Debug\UI.exe
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\bin\Debug\UI.pdb
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\bin\Debug\Panuon.UI.Silver.dll
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI.csprojAssemblyReference.cache
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\login.g.cs
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\MainWindow.g.cs
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\App.g.cs
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI_MarkupCompile.cache
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI_MarkupCompile.lref
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\App.baml
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\login.baml
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\MainWindow.baml
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI.g.resources
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI.exe
+C:\Users\陈忠涵\Desktop\大二暑假实习\Practical-training\PSMS.UI\obj\Debug\UI.pdb

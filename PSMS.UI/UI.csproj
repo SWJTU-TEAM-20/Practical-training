@@ -105,5 +105,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PSMS.BLL\PSMS.BLL.csproj">
+      <Project>{15dfa247-33c5-4907-8376-51ee09b63529}</Project>
+      <Name>PSMS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PSMS.Model\PSMS.Model.csproj">
+      <Project>{73e1c20f-5ee9-40dc-9e55-acea65de23d9}</Project>
+      <Name>PSMS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

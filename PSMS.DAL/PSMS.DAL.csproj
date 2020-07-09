@@ -44,5 +44,11 @@
     <Compile Include="ManagerDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PSMS.Model\PSMS.Model.csproj">
+      <Project>{73e1c20f-5ee9-40dc-9e55-acea65de23d9}</Project>
+      <Name>PSMS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
