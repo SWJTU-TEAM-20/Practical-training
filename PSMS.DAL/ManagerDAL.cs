@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BookStore;
 using PSMS.Model;
 namespace PSMS.DAL
 {
@@ -15,7 +16,9 @@ namespace PSMS.DAL
 
         public Manager UserLogin(string User_Name)
         {
-            throw new NotImplementedException();
+            SqlDbHelper sqlDbHelper= new SqlDbHelper();
+            
+            return null;
         }
     }
 }
