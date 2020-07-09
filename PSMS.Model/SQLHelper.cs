@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 //using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
 
-namespace BookStore
+
+namespace PSMS.Model
 {
     /// <summary>  
     /// 针对MySQL数据库操作的通用类  

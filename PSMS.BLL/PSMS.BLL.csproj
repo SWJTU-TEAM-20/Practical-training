@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PSMS.DAL\PSMS.DAL.csproj">
+      <Project>{8a377b09-795c-48ed-89df-f774edf2c5f9}</Project>
+      <Name>PSMS.DAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PSMS.Model\PSMS.Model.csproj">
       <Project>{73e1c20f-5ee9-40dc-9e55-acea65de23d9}</Project>
       <Name>PSMS.Model</Name>
