@@ -8,11 +8,14 @@ namespace PSMS.DAL
 {
     interface DalInterface
     {
-        Manager UserLogin(string User_Name, string Password);
+        Manager UserLogin(string User_Name);
     }
-    class ManagerDAL
+    class ManagerDAL:DalInterface
     {
 
-
+        public Manager UserLogin(string User_Name)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
