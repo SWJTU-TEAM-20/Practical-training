@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PSMS",
+    "\\PSMS.Model",
+    "\\PSMS.Model\\Properties"
   ],
   "PreviewInSolutionExplorer": false
 }
