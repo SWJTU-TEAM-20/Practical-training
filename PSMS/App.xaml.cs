@@ -13,9 +13,6 @@ namespace PSMS
     /// </summary>
     public partial class App : Application
     {
-        public void Func()
-        {
-        }
 
     }
 }
