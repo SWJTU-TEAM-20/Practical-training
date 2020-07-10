@@ -10,9 +10,14 @@ namespace PSMS.DAL
     interface DalInterface
     {
         Manager UserLogin(string User_Name);
+        void func();
     }
     public class ManagerDAL:DalInterface
     {
+        public void func()
+        {
+            throw new NotImplementedException();
+        }
 
         public Manager UserLogin(string User_Name)
         {
