@@ -6,7 +6,7 @@
         xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
         xmlns:local="clr-namespace:UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="720" Width="1440"
         Loaded="Window_Loaded"
         >
     <Grid>
@@ -36,13 +36,13 @@
                         </Grid.RowDefinitions>
                         <Button Width="150"
                                 Grid.Column="5"
-                                Height="45"
+                                Height="33"
                                 Background="#31AD00"
                                 VerticalAlignment="Center"
                                 HorizontalAlignment="Center"
                                 FontSize="16px"
                                 Cursor="Hand"
-                                Content="创建一份新档案" Margin="71.6,85,44,0.4" />
+                                Content="创建一份新档案" Margin="72,29,44,68" />
                         <Button Width="150"
                                 Grid.Column="5"
                                 Height="45"
@@ -52,38 +52,65 @@
                                 FontSize="16px"
                                 Cursor="Hand"
                                 Content="修改此档案" Margin="71.6,10.6,44,74.8" Grid.Row="1" Visibility="Hidden"/>
-                        <Button Width="73"
+                        <Button Width="68"
                                 Grid.Column="4"
-                                Height="35"
+                                Height="32"
                                 Background="#31ADFF"
                                 VerticalAlignment="Center"
                                 HorizontalAlignment="Center"
                                 FontSize="16px"
                                 Cursor="Hand"
-                                Content="查询" Margin="217,25,242,70.4" Grid.ColumnSpan="2" />
+                                Content="查询" Margin="215,29,250,69" Grid.ColumnSpan="2" />
                         <Label Margin="49,28,8.8,67.4" FontSize="16px" Content="搜索员工档案" Grid.ColumnSpan="2"/>
-                        <TextBox Grid.ColumnSpan="4" Margin="33.562,25,55.4,69.4" Text="员工ID" Grid.Column="1"/>
-                        <Label Margin="49,97,20.438,0.4" FontSize="16px" Content="姓名"/>
-                        <TextBox Margin="111,97,33,1.4" Text="" Grid.ColumnSpan="4"/>
-                        <Label Margin="0,97,188.4,0.4" FontSize="16px" Content="员工编号" Grid.Column="4"/>
-                        <TextBox Margin="82,97,61.4,129.8" Text="" Grid.Column="4" Grid.RowSpan="2"/>
-                        <Label Margin="29,9.6,20.438,86.8" FontSize="16px" Content="入职时间" Grid.Row="1"/>
-                        <TextBox Margin="111,9.6,33,88.8" Text="" Grid.Row="1" Grid.ColumnSpan="4"/>
-                        <Label Margin="0,9.6,188.4,86.8" FontSize="16px" Content="离职时间" Grid.Column="4" Grid.Row="1"/>
-                        <TextBox Margin="82,9.6,61.4,86.8" Text="" Grid.Column="4" Grid.Row="1"/>
-                        <Label Margin="29,56.6,20.438,39.8" FontSize="16px" Content="入部时间" Grid.Row="1"/>
-                        <TextBox Margin="111,56.6,33,41.8" Text="" Grid.Row="1" Grid.ColumnSpan="4"/>
-                        <Label Margin="0,56.6,188.4,39.8" FontSize="16px" Content="出生日期" Grid.Column="4" Grid.Row="1"/>
-                        <TextBox Margin="82,56.6,61.4,39.8" Text="" Grid.Column="4" Grid.Row="1"/>
-                        <Label Margin="29,104.6,20.438,122.4" FontSize="16px" Content="就职状态" Grid.Row="1" Grid.RowSpan="2"/>
-                        <TextBox Margin="111,104.6,33,124.4" Text="" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="4"/>
-                        <Label Margin="0,104.6,188.4,122.4" FontSize="16px" Content="部门编号" Grid.Column="4" Grid.Row="1" Grid.RowSpan="2"/>
-                        <TextBox Margin="82,104.6,61.4,122.4" Text="" Grid.Column="4" Grid.Row="1" Grid.RowSpan="2"/>
-                        <Label Margin="49,22.2,20.438,75.4" FontSize="16px" Content="邮箱" Grid.Row="2"/>
-                        <TextBox Margin="111,22.2,33,76.4" Text="" Grid.Row="2" Grid.ColumnSpan="4"/>
-                        <Label Margin="0,22.2,188.4,75.4" FontSize="16px" Content="手机号" Grid.Column="4" Grid.Row="2"/>
-                        <TextBox Margin="82,22.2,61.4,74.4" Text="" Grid.Column="4" Grid.Row="2"/>
-
+                        <TextBox Grid.ColumnSpan="4" Margin="34,28,55,69" Text="员工ID" Grid.Column="1"/>
+                        <DataGrid 
+                        Margin="-300,95,-296,75"
+                        FontSize="14px"
+                        AutoGenerateColumns="False"
+                        ItemsSource="{Binding Patients}"
+                        SelectedIndex="{Binding SelectedIndex}" Grid.ColumnSpan="6" Grid.RowSpan="2">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="员工编号"
+                                        Width="90"
+                                        Binding="{Binding Empno}"/>
+                                <DataGridTextColumn Header="员工姓名"
+                                        Width="90"
+                                        Binding="{Binding Name}"/>
+                                <DataGridTextColumn Header="部门编号"
+                                        Width="90"
+                                        Binding="{Binding Detno}"/>
+                                <DataGridTextColumn Header="性别"
+                                        Width="75"
+                                        Binding="{Binding Gender}"/>
+                                <DataGridTextColumn Header="住址"
+                                        Width="200"
+                                        Binding="{Binding Location}"/>
+                                <DataGridTextColumn Header="出生日期"
+                                        Width="120"
+                                        Binding="{Binding Birthday}"/>
+                                <DataGridTextColumn Header="入职时间"
+                                        Width="110"
+                                        Binding="{Binding Hire_Date}"/>
+                                <DataGridTextColumn Header="离职时间"
+                                        Width="100"
+                                        Binding="{Binding Resign_Date}"/>
+                                <DataGridTextColumn Header="入部时间"
+                                        Width="100"
+                                        Binding="{Binding Depart_Date}"/>
+                                <DataGridTextColumn Header="就职状态"
+                                        Width="90"
+                                        Binding="{Binding Work_State}"/>
+                                <DataGridTextColumn Header="职务"
+                                        Width="80"
+                                        Binding="{Binding Job}"/>
+                                <DataGridTextColumn Header="电话"
+                                        Width="110"
+                                        Binding="{Binding Tel_Num}"/>
+                                <DataGridTextColumn Header="邮箱"
+                                        Width="140"
+                                        Binding="{Binding E_Mail}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
                     </Grid>
                 </TabItem>
                 <TabItem Header="奖罚管理" >
